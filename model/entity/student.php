@@ -1,6 +1,7 @@
 <?php
 class Student
 {
+    var $id;
     var $firstName;
     var $lastName;
     var $dateOfBirth; //DOB

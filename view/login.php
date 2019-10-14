@@ -2,9 +2,8 @@
 session_start();
 include_once("../model/entity/user.php");
 $information = "";
-if ($_SESSION[user] != null)
-    header("location:index.php");
-
+// if ($_SESSION[user] != null)
+//     header("location:index.php");
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $userName = $_REQUEST["username"];
     $pw = $_REQUEST["pw"];

@@ -12,8 +12,9 @@ class User
     }
     static function authentication($userName, $pw)
     {
-        if ($userName == "nguyendung622@gmail.com" && $pw == "123")
-            return new User($userName, $pw, "Nguyễn Dũng");
+        if ($userName == "vanps1997@gmail.com" && $pw == "123456")
+            return new User($userName, $pw, "The Joke");
         return null;
     }
 }
+?>

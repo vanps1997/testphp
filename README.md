@@ -1,2 +1,3 @@
-# PHPG12019
-Dự án PHP dành cho nhóm 1 năm học 2019
+# Bài tập từ ngày 16/09/2019
+
+[Demo](http://admin.cfsnsc.com/1609/view/)
